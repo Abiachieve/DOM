@@ -69,6 +69,23 @@
 // att.setAttribute("style","background-color:aqua")
 // att.innerHTML="This is attribute"
 // document.body.append(att);
-function changecolor(newcolor){
-document.getElementById("para").style.color= newcolor
-}
+// function changecolor(newcolor){
+// document.getElementById("para").style.color= newcolor
+// }
+
+
+//get element by id
+const res=document.getElementById("container");//returs html element
+console.log(res);
+//get element by class name
+const res1=document.getElementsByClassName("para"); //returns array
+console.log(res1);
+
+const res2=document.getElementsByTagName("div"); //returns array
+console.log(res2);
+//Query selector All
+const res3=document.querySelectorAll("div"); //returns node list array
+console.log(res3);
+//Query selector 
+const res4=document.querySelector("div"); //returns html 
+console.log(res4);
